@@ -1,7 +1,7 @@
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-    cursor: url("mec8-cursor.png") 16 16, pointer !important;
+body {
+    color: #E6F4FF;
+}
+
+h1, h2 {
+    color: white;
 }
