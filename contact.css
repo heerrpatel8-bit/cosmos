@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    cursor:url("mec8-cursor.png"), auto !important;
+}
+
+body{
+    background:url("cos.jpg") center/cover no-repeat fixed;
+    font-family:"Space Grotesk", sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+    padding:40px;
+    color:white;
+}
+
+/* Main Card */
+
+.card{
+    width:850px;
+    background:rgba(7,15,30,.70);
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(126,239,255,.3);
+    border-radius:20px;
+
+    padding:45px;
+
+    box-shadow:0 0 35px rgba(126,239,255,.15);
+}
+
+/* Heading */
+
+h1{
+    font-family:"Orbitron", sans-serif;
+    text-align:center;
+    color:#7EEFFF;
+
+    letter-spacing:6px;
+    margin-bottom:35px;
+}
+
+/* Small Information Bar */
+
+.top{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+
+    margin-bottom:30px;
+}
+
+.top span{
+    color:#7EEFFF;
+    font-size:13px;
+    letter-spacing:2px;
+}
+
+.green{
+    color:#62ff9d;
+}
+
+hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-bottom:35px;
+}
+
+/* Intro */
+
+.intro{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.intro h2{
+    font-family:"Orbitron", sans-serif;
+    color:#7EEFFF;
+    margin-bottom:10px;
+}
+
+.intro p{
+    color:#d6e8ff;
+    line-height:1.8;
+}
+
+/* Contact Details */
+
+.contact{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.item{
+    display:grid;
+    grid-template-columns:220px 1fr;
+
+    padding:18px;
+
+    background:rgba(255,255,255,.05);
+    border-radius:12px;
+
+    transition:.3s;
+}
+
+.item:hover{
+    background:rgba(126,239,255,.08);
+    transform:translateY(-2px);
+}
+
+.label{
+    color:#7EEFFF;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:14px;
+}
+
+.value{
+    line-height:1.7;
+}
+
+.value a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.value a:hover{
+    color:#7EEFFF;
+    text-shadow:0 0 10px #7EEFFF;
+}
+
+/* Button */
+
+.button{
+    display:block;
+    width:250px;
+
+    margin:40px auto 0;
+
+    text-align:center;
+    text-decoration:none;
+
+    color:white;
+
+    padding:14px;
+
+    border:1px solid #7EEFFF;
+    border-radius:40px;
+
+    transition:.3s;
+}
+
+.button:hover{
+    background:#7EEFFF;
+    color:#02111f;
+
+    transform:translateY(-3px);
+    box-shadow:0 0 20px #7EEFFF;
+}

@@ -180,3 +180,7 @@ background:#7EEFFF;
 color:#04111f;
 
 }
+
+    html {
+        cursor: url(mec8-cursor.png), auto !important;
+      }

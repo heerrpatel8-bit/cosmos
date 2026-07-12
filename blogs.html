@@ -1,88 +1,209 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>CAPTAIN'S LOG</title>
-    <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Captain's Log</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:url("cos.jpg") center/cover no-repeat fixed;
+    font-family:"Space Grotesk",sans-serif;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:40px;
+}
+h1{
+    font-family:"Orbitron",sans-serif;
+    color:#7EEFFF;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:7px;
+    font-size:58px;      
+    line-height:1.1;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    text-align:center;
+    font-family:"Space Grotesk",sans-serif;
+    color:#9fdff0;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:14px;
+    opacity:0.75;
+    margin-bottom:40px;
+}
+.card{
+    width:900px;
+    background:rgba(7,15,30,.70);
+    backdrop-filter:blur(14px);
+    border:1px solid rgba(126,239,255,.3);
+    border-radius:20px;
+    padding:45px;
+    box-shadow:0 0 35px rgba(126,239,255,.15);
+}
+
+  .logs{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.log-box{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(126,239,255,.2);
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+}
+
+.log-box:hover{
+    transform:translateY(-5px);
+    border-color:#7EEFFF;
+    box-shadow:0 0 20px rgba(126,239,255,.2);
+}
+
+.log-header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+
+    color:#7EEFFF;
+    font-size:13px;
+    letter-spacing:2px;
+    font-family:"Orbitron",sans-serif;
+}
+
+.log-box h3{
+    color:#7EEFFF;
+    margin-bottom:12px;
+    font-family:"Orbitron",sans-serif;
+    font-size:20px;
+}
+
+.log-box p{
+    line-height:1.8;
+    color:#f2f2f2;
+}
+
+.button{
+
+display:block;
+
+width:250px;
+
+margin:40px auto 0;
+
+text-align:center;
+
+text-decoration:none;
+
+color:white;
+
+padding:14px;
+
+border:1px solid #7EEFFF;
+
+border-radius:40px;
+
+transition:.3s;
+
+}
+
+.button:hover{
+
+background:#7EEFFF;
+
+color:#02111f;
+
+transform:translateY(-3px);
+
+box-shadow:0 0 20px #7EEFFF;
+
+}
+
+html {
+
+        cursor: url(mec8-cursor.png), auto !important;
+        
+}
+
+</style>
+
+</head>
+
+<body>
     
-       body {
-    background: url("cos.jpg") center center / cover no-repeat fixed;
+<div class="card">
+      <h1>CAPTAIN'S LOG</h1>
 
-    font-family: Georgia, serif;
-    font-size: 20px;
-    color: oldlace;
-    line-height: 1.8;
-    padding: 40px 20px;
-      } 
+      <p class="subtitle">MISSION ARCHIVES</p>
       
-      h1 {
-        font-size: 48px;
-        text-align: center;
-        margin-bottom: 30px;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-      }
-      h2 {
-        font-size: 32px;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        border-bottom: 2px solid oldlace;
-        padding-bottom: 10px;
-      }
-      .section {
-        background-color: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        margin: 20px auto;
-        max-width: 800px;
-        border-radius: 10px;
-        backdrop-filter: blur(5px);
-      }
-      p {
-        margin: 10px 0;
-      }
-      .nav-link {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 12px 22px;
-        border-radius: 999px;
-        text-decoration: none;
-        color: #333;
-        background: oldlace;
-        font-weight: bold;
-      }
-      </style>
-    </head>
+<div class="logs">
 
-    <h1>Captain's Log</h1>
+    <div class="log-box">
+        <div class="log-header">
+            <span>ENTRY 001</span>
+            <span>10 JULY 2026</span>
+        </div>
 
-    <p align ="center">
-Mission Archive • Development Journey
-</p>
+        <h3>The Beginning</h3>
 
-    <div class="section">
-      <h2> 📡 TRANSMISSION 001 </h2>
-      <p>11 July 2026</p>
-      <p> Implemented a custom cursor that matches
-the space theme.
-
-After debugging CSS inheritance issues,
-the cursor now works across the website.</p>
-
+        <p>
+            Every great journey starts with curiosity. Today I decided
+            to build "The Cosmos"—a place where anyone can explore the
+            universe through code and creativity.
+        </p>
     </div>
 
-    <div class="section">
-      <h2>📡 TRANSMISSION 002</h2>
-      <p>12 July 2026</p>
-      <p>Designed a NASA-inspired Mission Dossier
-to introduce myself through an
-interactive experience.</p>
+    <div class="log-box">
+        <div class="log-header">
+            <span>ENTRY 002</span>
+            <span>11 JULY 2026</span>
+        </div>
+
+        <h3>Mission Progress</h3>
+
+        <p>
+            The Mission Dossier has been completed. The project now
+            feels less like a website and more like a spacecraft's
+            archive.
+        </p>
     </div>
 
-    <div class="section">
-      <h2>📡 TRANSMISSION 003</h2>
-      <p>13 July 2026</p>
-      <p>Started creating dedicated project
-cards and organizing completed work.</p>
+    <div class="log-box">
+        <div class="log-header">
+            <span>ENTRY 003</span>
+            <span>12 JULY 2026</span>
+        </div>
+
+        <h3>Looking Ahead</h3>
+
+        <p>
+            The mission continues. More discoveries, more pages,
+            and many more stars remain unexplored.
+        </p>
     </div>
-    <a class="nav-link" href="index.html">← Return to Mission</a>
-  </body>
-</html>
+
+</div>
+
+    <a href="index.html" class="button">
+← Return to Mission
+</a>
+</body> 
+</html> 
