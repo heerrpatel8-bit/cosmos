@@ -9,7 +9,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    
+    min-height: 100vh;
     margin: 0;
 }
     h1 {
@@ -41,7 +43,173 @@ body {
       html {
         cursor: url(mec8-cursor.png), auto !important;
       }
+
+      .hero{
+        width:90%;
+        margin: 120px auto;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        color:white;  
+      }
+
+      .left{
+        width:50%;
+      }
+
+      .small-title{
+        letter-spacing:5px;
+        color:#9fd3ff;
+        font-size:14px;
+        margin-bottom:15px;
+      }
+
+      .left h1{
+        font-size:70px;
+        line-height:1;
+        margin-bottom:20px;
+      }
+
+      .left span{
+        color:#7ed8ff;
+        text-shadow:0 0 2px #6cc8ff;
+      }
+
+      .description{
+        font-size:20px;
+        width:85%;
+        color:#dcdcdc;
+        line-height:1.8;
+      }
+
+      .right{
+        width:40%;
+        position:relative;
+        height:500px;
+      }
+
+      .planet{
+        width:230px;
+        height:230px;
+        border-radius:50%;
+        background:linear-gradient(#6dc9ff,#2b8fe3);
+        position:absolute;
+        top:90px;
+        left:100px;
+
+        box-shadow:
+        0 0 60px #58c7ff,
+        inset -20px -20px 50px rgba(0,0,0,.3);
+
+        animation:float 5s ease-in-out infinite;
+      }
+
+      @keyframes float{
+        0%,100%{
+        transform:translateY(0);
+        }
+
+        50%{
+        transform:translateY(-18px);
+        }
+      }
+
+      .orbit{
+        
+      position:absolute;
+      border:2 px solid rgba(255,255,255,.2);
+      border-radius:50%;
+      }
+
+      .orbit1{
+
+        width:290px;
+        height:290px;
+        top:60px;
+        left:70px;
+        animation:spin 18s linear infinite;
+      }
+
+      .orbit2{
+
+        width:360px;
+        height:360px;
+        top:25px;
+        left:35px;
+        animation:spin 28s linear infinite reverse;
+      }
+
+      @keyframes spin{
+
+        from{
+        transform:rotate(0deg);
+        
+        }
+
+        to{
+        transform:rotate(360deg);
+        }
+      }
+
+      .astronaut{
+
+      position:absolute;
+      font-size:70px;
+      right:20px;
+      top:170px;
+
+      animation:
+      floatAstronaut 4s ease-in-out infinite;
+      }
+
+      @keyframes floatAstronaut{
+
+        0%,100%{
+        transform:translateY(0) rotate(-8deg);
+        }
+
+        50%{
+
+        transform:translateY(-20px) rotate(8deg);
+        }
+      }
+
+      body{
+
+      cursor:url(mec8-cursor.png), auto;
+
+      }
+
+      .glow{
+
+      position:fixed;
+      width:20px;
+      height:20px;
+
+      background:#7ed8ff;
+
+      border-radius:50%;
+
+      pointer-events:none;
+
+      filter:blur(18px);
+
+      z-index:9999;
+
+      }
 </style>
+
+<script>
+  const glow = document.createElement ("div");
+  glow.className = "glow";
+  document.body.appendChild (glow);
+
+  document.addEventListener("mousemove",(e)=>{
+    glow.style.left = (e.clientX - 10) + "px";
+    glow.style.top = (e.clientY - 10) + "px";
+  });
+
+</script>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -60,9 +228,53 @@ body {
 
 <li><a href="contact.html">Contact</a></li>
 
-</ul>
+</ul> 
 
 </nav>
-     </body>
+
+<section class="hero">
+
+    <div class="left">
+      <p class="small-title"> WELCOME ABOARD</p>
+      <h1>
+        Explore the
+        <span> Universe. </span>
+      </h1>
+
+      <p class="description">
+        Every star is a story waiting to be read.
+        Every project is a constellation I've built.
+        Welcome to my little corner of the cosmos.
+      </p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="planet"></div>
+
+      <div class="orbit orbit1"></div>
+      <div class="orbit orbit2"></div>
+
+      <div class="astronaut"> 👩🏻‍🚀 </div>
+    </div>
+</section>
+
+
+<section class="quote-section">
+
+    <div class="quote-card">
+
+      <p class="quote">
+        "The universe is not outside of you.
+        Look inside yourself; everything that you want, you already are."
+      </p>
+
+      <p class="author">-RUMI</p>
+
+    </div>
+
+</section> 
+    </body>
 </html>
+
+
     
