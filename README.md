@@ -51,3 +51,5 @@ This portfolio isn't just about code—it's about curiosity, storytelling, and t
 I'd love to connect with fellow developers, designers, dreamers, and space enthusiasts.
 
 ⭐ If you enjoyed exploring **The Cosmos**, consider giving this repository a star.
+
+Cursor: Special thanks to Cursor 4 U for providing the custom space-themed cursor that enhances the immersive experience of The Cosmos.
