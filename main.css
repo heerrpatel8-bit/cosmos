@@ -109,86 +109,44 @@ background:#7EEFFF;
 
 }
 
-.star{
 
-position:absolute;
 
-width:3px;
 
-height:3px;
+.button{
 
-background:white;
+display:inline-block;
 
-border-radius:50%;
+width:200px;
 
-animation:twinkle 3s infinite;
+margin-left:35px;
+
+text-align:center;
+
+text-decoration:none;
+
+color:white;
+
+padding:14px;
+
+border:1px solid #7EEFFF;
+
+border-radius:40px;
+
+transition:.3s;
 
 }
 
-@keyframes twinkle{
+.button:hover{
 
-0%,100%{opacity:.2;}
+background:#7EEFFF;
 
-50%{opacity:1;}
+color:#02111f;
+
+transform:translateY(-3px);
+
+box-shadow:0 0 20px #7EEFFF;
 
 }
 
-.quote-section{
-    display:flex;
-    justify-content:center;
-    margin:120px 0 70px;
-}
 
-.quote-card{
-
-    width:70%;
-    max-width:900px;
-
-    padding:40px 60px;
-
-    text-align:center;
-
-    border-radius:30px;
-
-    background: rgba(10,15,45,.5);
-
-    backdrop-filter:blur(18px);
-
-    -webkit-backdrop-filter:blur(18px);
-
-    border:1px solid rgba(255,255,255,.08);
-
-    box-shadow:
-    0 0 30px rgba(117,84,255,.15),
-    inset 0 0 20px rgba(255,255,255,.02);
-}
-
-.quote{
-
-    color:#F5F5F5;
-    font-size:24px;
-    line-height:1.8;
-    font-family:"Space Grotesk", sans-serif;
-}
-
-.author{
-
-    margin-top:25px;
-    color:#B56BFF;
-    letter-spacing:4px;
-    font-size:16px;
-}
-
-.quote-card{
-
-    transition:.4s ease;
-}
-
-.quote-card:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:
-        0 0 45px rgba(168,114,255,.25),
-        inset 0 0 20px rgba(255,255,255,.03);
-}
+        
