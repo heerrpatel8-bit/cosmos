@@ -1,55 +1,21 @@
 # 🌌 The Cosmos
 
-> *"Explore. Learn. Dream."*
+I have always been attracted to the universe. **The Cosmos** is my personal portfolio where I have introduced myself and also included my other projects. I aspire to pursue Astrophysics when i grow up. I decided to learn coding for the same. This website is not very professional or complex as I am still learning to code but I have tried my best to make it look attractive and interactive.
 
-Welcome aboard **The Cosmos** — a space-inspired personal portfolio where curiosity meets creativity. This website is more than just a collection of projects; it's a digital universe that reflects my journey as a student, developer, and aspiring astrophysicist.
+## 🌐 Live Demo
 
-Every page is designed to feel like a new destination in space, inviting visitors to explore not only my work but also the ideas and passions that inspire it.
+👉🏻 https://heerrpatel8-bit.github.io/cosmos/
 
----
+## 💫 Credits
 
-## 🚀 Features
+* The Cursor is from <a href="https://www.cursors-4u.com/search?query=for"> **CURSORS-4U** </a>. They have various cool cursors!
+* I learned lots of cool codes from <a href="https://www.w3schools.com/"> **W3Schools** </a>. There's many more for me to learn yet!
 
-- 🌠 Space-inspired aesthetic with an immersive starry background
-- ✨ Smooth animations and interactive visual effects
-- 👩🏻‍🚀 Cosmic-themed hero section
-- 📖 Captain's Log for blogs and reflections
-- 📂 Projects page showcasing my work
-- 🛰️ Mission Dossier (About Me) section
-- 📬 Contact page for collaboration and connections
-- 💫 Custom space-themed cursor
 
----
 
-## 🛠️ Built With
+*Frankly saying, I made this project to learn basic codes of HTML and CSS in a better way. In the future I might add more cool features on this website!*
 
-- HTML5
-- CSS3
-- JavaScript
 
----
 
-## 🎨 Design Inspiration
+*If you enjoyed this project, consider giving it a ⭐️ on GitHub.*
 
-The visual identity of this project draws inspiration from:
-
-- The beauty and mystery of space
-- NASA-inspired interfaces
-- *Interstellar*
-- The idea that every project is its own constellation waiting to be explored.
-
----
-
-## 🌟 Philosophy
-
-This portfolio isn't just about code—it's about curiosity, storytelling, and the endless pursuit of learning.
-
----
-
-## 📬 Connect With Me
-
-I'd love to connect with fellow developers, designers, dreamers, and space enthusiasts.
-
-⭐ If you enjoyed exploring **The Cosmos**, consider giving this repository a star.
-
-Cursor: Special thanks to Cursor 4 U for providing the custom space-themed cursor that enhances the immersive experience of The Cosmos.
