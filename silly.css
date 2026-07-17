@@ -1,0 +1,127 @@
+body{
+
+        background-image: url('cos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    min-height: 100vh;
+    margin: 0;
+
+    }
+
+    h1{
+    font-family:"Orbitron",sans-serif;
+    color:#7ebeff;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:7px;
+    font-size:58px;      
+    line-height:1.1;
+    font-weight:700;
+    margin-bottom:8px;
+    }
+
+    .subtitle{
+    text-align:center;
+    font-family:"Space Grotesk",sans-serif;
+    color:#ecf2f4;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:14px;
+    opacity:0.75;
+    margin-bottom:40px;
+    }
+
+    .box{
+
+        display:flex;
+        flex-direction:column;
+        gap:25px;
+
+    }
+
+    .box-box{
+
+        background: rgba(225,225,225,.05);
+        border:1px solid rgba(126,239,225,.2);
+        border-radius:5px;
+        padding:25px;
+        transition:.3s;
+
+    }
+
+    .box-header{
+
+        display:flex;
+        justify-content:space-between;
+        font-family:"Orbitron",sans-serif;
+        color:#7ebeff;
+        font-size:13px;
+        letter-spacing:2px;
+        font-family:"Orbitron",sans-serif;
+
+
+    }
+
+    .box-box h3{
+
+        color:#7ebeff;
+        margin-bottom:12px;
+        font-family:"Orbitron", sans-serif;
+        font-size:20px;
+
+    }
+
+    .box-box h5{
+
+       
+        color:#ecf2f4d7;
+        margin-bottom:12px;
+        font-family:"Orbitron", sans-serif;
+        font-size:15px;
+        margin-left: 2px;
+
+    }
+
+    .button{
+
+        display:block;
+        width:250px;
+        margin:40px auto 0;
+        text-align:center;
+        text-decoration:none;
+        color:white;
+        padding:14px;
+        border:1px solid #7EEFFF;
+        border-radius:40px;
+        transition:.3s;
+
+    }
+
+    .button:hover{
+
+        background:#7EEFFF;
+        color:#02111f;
+        transform:translateY(-3px);
+        box-shadow:0 0 20px #7EEFFF;
+
+    }
+
+    html{
+
+        cursor: url(mec8-cursor.png), auto !important;
+
+    }
+
+    .image-container {
+    display: flex;
+    justify-content: flex-start; /* Left align */
+    }
+
+    .left-image {
+    width: 300px;
+    height: auto;
+    border-radius:10px;
+    }
